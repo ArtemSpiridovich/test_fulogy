@@ -1,0 +1,61 @@
+@import '../variables'
+@import '../../App'
+
+.header
+  position: relative
+  width: 100%
+  height: 56px
+  background-color: $header_color
+  display: flex
+  align-items: center
+  justify-content: space-between
+  @extend .wrapper
+  .header__logo
+    color: white
+    width: 84px
+  .header__menu
+    display: flex
+    align-items: center
+    .menu__cart
+      width: 18px
+      height: 18px
+    .menu__button
+      border: 2px solid #161616
+      border-radius: 5px
+      width: 38px
+      height: 38px
+      position: relative
+      display: flex
+      justify-content: center
+      align-items: center
+      cursor: pointer
+      transition: all .5s linear
+      margin-left: 30px
+      .button__burger
+        background-color: $main_color
+        width: 16px
+        height: 2px
+        border-radius: 1px
+        position: absolute
+        transition: all .5s ease-in-out
+        &:before, &:after
+          position: absolute
+          content: ''
+          width: 16px
+          height: 2px
+          background-color: $main_color
+          border-radius: 1px
+          transition: all .5s ease-in-out
+        &:before
+          transform: translateY(6px)
+        &:after
+          transform: translateY(-6px)
+    .menu__button.open .button__burger
+      transform: translateX(-16px)
+      background: transparent
+      &:before
+        transform: rotate(-45deg) translate(12px, 12px)
+      &:after
+        transform: rotate(45deg) translate(12px, -12px)
+
+
