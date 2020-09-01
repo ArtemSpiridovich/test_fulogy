@@ -26,7 +26,7 @@ export const Footer = () => {
     <div className={s.footer}>
       {
         items.map((e, i) => {
-          return <Item title={e.title} color={e.color} id={i} key={i} setActive={setActive}/>
+          return <Item title={e.title} color={e.color} id={i} key={i} active={e.active} setActive={setActive}/>
         })
       }
     </div>
