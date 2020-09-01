@@ -15,7 +15,9 @@ export const Header = () => {
         <div className={s.header__menu}>
           <img className={s.menu__cart} src={cart}/>
           <div onClick={() => setMenuIsOpen(!menuIsOpen)} className={`${s.menu__button} ${menuIsOpen ? s.open : ''}`}>
-            <div className={s.button__burger}></div>
+            <div className={s.button__burger}>
+            
+            </div>
           </div>
         </div>
         <Burger isOpen={menuIsOpen}/>

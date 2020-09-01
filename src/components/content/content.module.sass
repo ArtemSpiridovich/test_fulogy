@@ -1,5 +1,32 @@
 @import "../../App"
 
 .content
+  height: 100%
+  position: relative
   display: flex
-  @extend .wrapper
+  .content__info
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    display: flex
+    flex-direction: column
+    @extend .wrapper
+    .info__button
+      outline: 1px solid transparent
+      border: none
+      background-color: transparent
+      width: max-content
+      margin: 14px 0
+      font-family: Roboto Slab, sans-serif
+      font-size: 1.1rem
+      color: rgba(0,0,0, .4)
+    .info__text
+      width: 70%
+      >p
+        margin-bottom: 12px
+        &:nth-child(3)
+          margin-bottom: 0

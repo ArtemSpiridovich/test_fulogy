@@ -1,0 +1,44 @@
+@import "../../../variables"
+
+.item
+  margin-right: 20px
+  position: relative
+  width: 102px
+  height: 70px
+  background-image: url('../../../../assets/images/item_fon.png')
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  transition: all .2s linear
+  &:nth-child(3)
+    margin-right: 0
+  .active
+    display: none
+  .item__text
+    position: absolute
+    color: $main_color
+    font-size: 1rem
+    left: 0
+    bottom: 0
+    right: 0
+    height: 22px
+    background-color: rgba(0,0,0,.5)
+    display: flex
+    justify-content: center
+    align-items: center
+.item.active
+  transform: scale(1.1)
+  box-shadow: 0 8px 13px #cccccc
+  transition: all .2s linear
+  .active
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 5px 5px 0 0
+    position: absolute
+    top: 0
+    right: 0
+    background-color: $primary_color
+    width: 15px
+    height: 15px
+    border-radius: 3px

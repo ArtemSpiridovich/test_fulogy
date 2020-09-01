@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './item.module.sass';
 
-export const Item = ({title, color}) => {
+export const Item = ({title, color, active, setActive, id}) => {
   let classColor
   if(color === 'blue') {
     classColor = s.item__color_blue
@@ -12,7 +12,7 @@ export const Item = ({title, color}) => {
   }
   
   return (
-    <div className={s.item}>
+      <div onClick={() => setActive(id)} className={`${s.item} ${active ? s.active : ''}`}>
       {title}
       <span className={classColor}></span>
     </div>

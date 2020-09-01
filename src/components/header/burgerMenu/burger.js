@@ -1,21 +1,20 @@
 import React from 'react';
 import s from './burger.module.sass';
-import {Item} from "./item/item";
+import {Item} from "./items/item";
 
 export const Burger = ({isOpen}) => {
   let classValue = isOpen ? s.open : s.close
   
+  let items = [{title: 'Обучающее видео'},
+    {title: 'Оформление заказа'}, {title: 'Оплата'}, {title: 'Доставка'}, {title: 'Гарантия'}, {title: 'Возврат'}, {title: 'Контакты'}, {title: 'Партнеры'}]
+  
   return (
     <div className={`${s.burger} ${classValue}`}>
-      <Item title='Обучающее видео'/>
-      <Item title='Оформление заказа'/>
-      <Item title='Оплата'/>
-      <Item title='Доставка'/>
-      <Item title='Доставка'/>
-      <Item title='Гарантия'/>
-      <Item title='Возврат'/>
-      <Item title='Контакты'/>
-      <Item title='Партнеры'/>
+      {
+        items.map((e,i) => {
+          return <Item title={e.title} key={i}/>
+        })
+      }
     </div>
   );
 }
