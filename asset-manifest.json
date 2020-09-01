@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/test_fulogy/static/css/main.3f405c56.chunk.css",
+    "main.js": "/test_fulogy/static/js/main.ccefaa1e.chunk.js",
+    "main.js.map": "/test_fulogy/static/js/main.ccefaa1e.chunk.js.map",
+    "runtime-main.js": "/test_fulogy/static/js/runtime-main.f77189ac.js",
+    "runtime-main.js.map": "/test_fulogy/static/js/runtime-main.f77189ac.js.map",
+    "static/css/2.40a775a0.chunk.css": "/test_fulogy/static/css/2.40a775a0.chunk.css",
+    "static/js/2.645ebd4c.chunk.js": "/test_fulogy/static/js/2.645ebd4c.chunk.js",
+    "static/js/2.645ebd4c.chunk.js.map": "/test_fulogy/static/js/2.645ebd4c.chunk.js.map",
+    "index.html": "/test_fulogy/index.html",
+    "precache-manifest.da7d70151f8c0cfa60191ae5f1d7a1fe.js": "/test_fulogy/precache-manifest.da7d70151f8c0cfa60191ae5f1d7a1fe.js",
+    "service-worker.js": "/test_fulogy/service-worker.js",
+    "static/css/2.40a775a0.chunk.css.map": "/test_fulogy/static/css/2.40a775a0.chunk.css.map",
+    "static/css/main.3f405c56.chunk.css.map": "/test_fulogy/static/css/main.3f405c56.chunk.css.map",
+    "static/js/2.645ebd4c.chunk.js.LICENSE.txt": "/test_fulogy/static/js/2.645ebd4c.chunk.js.LICENSE.txt",
+    "static/media/cold-light.png": "/test_fulogy/static/media/cold-light.bfe39270.png",
+    "static/media/days-light.png": "/test_fulogy/static/media/days-light.981b2af9.png",
+    "static/media/item.module.sass": "/test_fulogy/static/media/item_fon.fbc8b3d0.png",
+    "static/media/logo.png": "/test_fulogy/static/media/logo.7f33515d.png",
+    "static/media/shopping-cart.svg": "/test_fulogy/static/media/shopping-cart.6b9afd02.svg",
+    "static/media/warm-light.png": "/test_fulogy/static/media/warm-light.38afb6ac.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f77189ac.js",
+    "static/css/2.40a775a0.chunk.css",
+    "static/js/2.645ebd4c.chunk.js",
+    "static/css/main.3f405c56.chunk.css",
+    "static/js/main.ccefaa1e.chunk.js"
+  ]
+}
