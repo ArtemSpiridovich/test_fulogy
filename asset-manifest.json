@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test_fulogy/static/css/main.e3d7c64c.chunk.css",
-    "main.js": "/test_fulogy/static/js/main.d4ae53dd.chunk.js",
-    "main.js.map": "/test_fulogy/static/js/main.d4ae53dd.chunk.js.map",
+    "main.js": "/test_fulogy/static/js/main.e5785952.chunk.js",
+    "main.js.map": "/test_fulogy/static/js/main.e5785952.chunk.js.map",
     "runtime-main.js": "/test_fulogy/static/js/runtime-main.f77189ac.js",
     "runtime-main.js.map": "/test_fulogy/static/js/runtime-main.f77189ac.js.map",
     "static/css/2.40a775a0.chunk.css": "/test_fulogy/static/css/2.40a775a0.chunk.css",
     "static/js/2.cb5c32d7.chunk.js": "/test_fulogy/static/js/2.cb5c32d7.chunk.js",
     "static/js/2.cb5c32d7.chunk.js.map": "/test_fulogy/static/js/2.cb5c32d7.chunk.js.map",
     "index.html": "/test_fulogy/index.html",
-    "precache-manifest.df970ceeb7fdd7b15ebb71753ef111d3.js": "/test_fulogy/precache-manifest.df970ceeb7fdd7b15ebb71753ef111d3.js",
+    "precache-manifest.02bc6f32ee3ca1fb42de246663df64ee.js": "/test_fulogy/precache-manifest.02bc6f32ee3ca1fb42de246663df64ee.js",
     "service-worker.js": "/test_fulogy/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/test_fulogy/static/css/2.40a775a0.chunk.css.map",
     "static/css/main.e3d7c64c.chunk.css.map": "/test_fulogy/static/css/main.e3d7c64c.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.40a775a0.chunk.css",
     "static/js/2.cb5c32d7.chunk.js",
     "static/css/main.e3d7c64c.chunk.css",
-    "static/js/main.d4ae53dd.chunk.js"
+    "static/js/main.e5785952.chunk.js"
   ]
 }

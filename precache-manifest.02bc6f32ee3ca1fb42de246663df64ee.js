@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bbf0d155c07e0ad00e20c39b1d7ed9f",
+    "revision": "7cb12c78dff48f940950cd2582a5ab68",
     "url": "/test_fulogy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test_fulogy/static/css/2.40a775a0.chunk.css"
   },
   {
-    "revision": "b70796a8ca58f039b226",
+    "revision": "1e692172393f706379b7",
     "url": "/test_fulogy/static/css/main.e3d7c64c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test_fulogy/static/js/2.cb5c32d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b70796a8ca58f039b226",
-    "url": "/test_fulogy/static/js/main.d4ae53dd.chunk.js"
+    "revision": "1e692172393f706379b7",
+    "url": "/test_fulogy/static/js/main.e5785952.chunk.js"
   },
   {
     "revision": "127efee8d1d1416ff8e9",
