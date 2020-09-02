@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e847a508b4550fe156f6dd91011a1ce",
+    "revision": "2bbf0d155c07e0ad00e20c39b1d7ed9f",
     "url": "/test_fulogy/index.html"
   },
   {
-    "revision": "e89cd9dcb3d6e54254e1",
+    "revision": "1eed1cfbf4e56d507bfc",
     "url": "/test_fulogy/static/css/2.40a775a0.chunk.css"
   },
   {
-    "revision": "50b33b5fe1fe6a777618",
+    "revision": "b70796a8ca58f039b226",
     "url": "/test_fulogy/static/css/main.e3d7c64c.chunk.css"
   },
   {
-    "revision": "e89cd9dcb3d6e54254e1",
-    "url": "/test_fulogy/static/js/2.645ebd4c.chunk.js"
+    "revision": "1eed1cfbf4e56d507bfc",
+    "url": "/test_fulogy/static/js/2.cb5c32d7.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/test_fulogy/static/js/2.645ebd4c.chunk.js.LICENSE.txt"
+    "url": "/test_fulogy/static/js/2.cb5c32d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50b33b5fe1fe6a777618",
-    "url": "/test_fulogy/static/js/main.5f448ef8.chunk.js"
+    "revision": "b70796a8ca58f039b226",
+    "url": "/test_fulogy/static/js/main.d4ae53dd.chunk.js"
   },
   {
     "revision": "127efee8d1d1416ff8e9",
